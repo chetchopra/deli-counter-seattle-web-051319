@@ -11,6 +11,9 @@ def line(arr)
     puts str.rstrip
   end
 end
+
+def take_a_number(arr, name)
+  
       
     
     

@@ -19,9 +19,9 @@ end
       
 def now_serving(arr)
   if arr.size() == 0 
-    puts "There is nody waiting to be served!"
+    puts "There is nobody waiting to be served!"
   else 
-    puts "Currently serving #{arr[0]}"
+    puts "Currently serving #{arr[0]}."
   end
 end
     

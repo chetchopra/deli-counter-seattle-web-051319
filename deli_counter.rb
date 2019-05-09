@@ -5,7 +5,8 @@ def line(arr)
     count = 1
     str = "The line is currently: "
     arr.each do |n|
-      str += "#{count}. #{n}"
+      str += "#{count}. #{n} "
+      count += 1
     end
     puts str
   end

@@ -18,7 +18,11 @@ def take_a_number(arr, name)
 end
       
 def now_serving(arr)
-  puts "Currently serving #{arr[0]}"
+  if arr.size() == 0 
+    puts "There is nody waiting to be served!"
+  else 
+    puts "Currently serving #{arr[0]}"
+  end
 end
     
     

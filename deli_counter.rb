@@ -8,7 +8,7 @@ def line(arr)
       str += "#{count}. #{n} "
       count += 1
     end
-    puts str.first(10)
+    puts str.rstrip
   end
 end
       
